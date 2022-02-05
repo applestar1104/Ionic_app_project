@@ -1,0 +1,60 @@
+.day-container {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+  background-color: #ddedff;
+  height: 68px;
+}
+.daynum {
+  margin: 8px auto 0 auto;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  font-size: 12px;
+}
+.daynum.selected {
+  border-radius: 50%;
+  border: 1px solid #696969;
+}
+.count {
+  height: 6px;
+  width: 6px;
+  margin: 0 auto;
+}
+.countnotzero {
+  height: 6px;
+  width: 6px;
+  // border: 1px solid #606060;
+  background-color: #606060;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+}
+.available {
+  height: 7px;
+  width: 7px;
+  border: 1px solid #606060;
+  // background-color: #606060;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+}
+// .available {
+//   height: 6px;
+//   width: 3px;
+//   background-color: #606060;
+//   border-bottom-left-radius: 6px;
+//   border-top-left-radius: 6px;
+//   display: inline-block;
+//   margin: 0 auto;
+// }
+.countnotzero.alert {
+  height: 6px;
+  width: 6px;
+  border-radius: 50%;
+  background-color: #dc3545;
+  display: inline-block;
+  margin: 0 auto;
+}
+.today {
+  background-color: #ffffcc !important;
+}

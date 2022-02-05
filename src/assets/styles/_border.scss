@@ -1,0 +1,53 @@
+/*
+ * Border Width
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-border-1 {
+	border-width: 1px;
+	border-style: solid;
+}
+
+.bc-border-2 {
+	border-width: 2px;
+	border-style: solid;
+}
+
+.bc-border-3 {
+	border-width: 3px;
+	border-style: solid;
+}
+
+/*
+ * Border Color
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-border-danger {
+	border-color: var(--ion-color-danger);
+}
+
+.bc-border-light {
+	border-color: var(--ion-color-light);
+}
+
+.bc-border-dark {
+	border-color: var(--ion-color-dark);
+}
+
+.bc-border-warning {
+	border-color: var(--ion-color-warning);
+}
+
+.bc-border-success {
+	border-color: var(--ion-color-success);
+}
+
+/*
+ * Border Radius
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-border-radius-4 {
+	border-radius: 4px;
+}

@@ -1,0 +1,83 @@
+/*
+ * Position
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-absolute {
+	position: absolute;
+}
+
+.bc-relative {
+	position: relative;
+}
+
+/*
+ * Top
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-top-0 {
+	top: 0;
+}
+
+.bc-top-42 {
+	top: 42px;
+}
+
+/*
+ * Bottom
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-bottom-10 {
+	bottom: 10px;
+}
+
+.bc-bottom-16 {
+	bottom: 16px;
+}
+
+/*
+ * Left
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-left-0 {
+	left: 0;
+}
+
+.bc-left-16 {
+	left: 16px;
+}
+
+.bc-left-25 {
+	left: 25px;
+}
+
+/*
+ * Right
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-right-0 {
+	right: 0px;
+}
+
+
+/*
+ * z Index
+ * prefix: bc (stands for "build center")
+ */
+
+ .bc-z-999 {
+	z-index: 999;
+}
+
+/*
+ * Other
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-overflow-hidden {
+	overflow: hidden;
+}

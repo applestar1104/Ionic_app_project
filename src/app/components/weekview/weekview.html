@@ -1,0 +1,25 @@
+<div class="schedule">
+
+  <div class="title" style="min-height: 41px; background-color: white;">
+    <h5 class="month" style="min-height: 41px; margin-top: 0;">{{ data?.navigatorTitle }}</h5>
+    <ion-button size="small" class="back" (click)="goBack()">
+      <span>
+        &lt;
+      </span>
+    </ion-button>
+    <ion-button size="small" class="forward" (click)="goForward()">
+      <span>
+        &gt;
+      </span>
+    </ion-button>
+  </div>
+
+  <div class="weekrow" (swipe)="swipeLeftRight($event)" *ngIf="dataOrdered.length">
+    <bc-day class="weekcol" *ngFor="let day of daysOrdered; let i = index;" (dayofweek)="sendDay($event)" [shortname]="translateShortDayName(dataOrdered[i].shortname)" [longname]="dataOrdered[i].longname" [dayOfWeek]="getDayOfWeek(dataOrdered[i].date)" [count]="dataOrdered[i].count" [selected]="dataOrdered[i].selected" [isToday]="dataOrdered[i].date === today" [alert]="dataOrdered[i].alert" [available]="dataOrdered[i].available"></bc-day>
+  </div>
+
+  <div class="selectedDateTitle">
+    <span class="m-l-15">{{ translateSelectedDateTitle(data?.selectedDateTitleX) }}</span>
+  </div>
+
+</div>

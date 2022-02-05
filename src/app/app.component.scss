@@ -1,0 +1,7 @@
+ion-item.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+ion-item.disabled ion-icon, ion-item.disabled ion-label {
+  opacity: .5;
+}

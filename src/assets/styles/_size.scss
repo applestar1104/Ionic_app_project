@@ -1,0 +1,53 @@
+/*
+ * Width
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-w-screen {
+	width: 100vw;
+}
+
+.bc-w-full {
+	width: 100%;
+}
+
+.bc-w-30 {
+	width: 30px;
+}
+
+.bc-w-60 {
+	width: 60px;
+}
+
+.bc-w-80 {
+	width: 80px;
+}
+
+/*
+ * Height
+ * prefix: bc (stands for "build center")
+ */
+
+.bc-h-screen {
+	height: 100vh;
+}
+
+.bc-h-full {
+	height: 100%;
+}
+
+.bc-h-unset {
+	height: unset;
+}
+
+.bc-h-30 {
+	height: 30px;
+}
+
+.bc-h-60 {
+	height: 60px;
+}
+
+.bc-h-80 {
+	height: 80px;
+}

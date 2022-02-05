@@ -1,0 +1,16 @@
+<div (click)="sendDay()" class="day-container" [ngClass]="{'today': isToday}">
+  <div class="day">{{ shortname }}</div>
+  <div class="daynum" [ngClass]="{'selected': selected}">{{ dayOfWeek }}</div>
+  <!-- <div class="count" 
+    [ngClass]="{'countnotzero': count > 0, 'alert': count > 0 && alert, 'available': count > 0 && available}" 
+    style="margin-bottom: 4px;">
+  </div> -->
+  <div [ngClass]="{
+      'countnotzero': count > 0 && !available, 
+      'alert': count > 0 && alert, 
+      'available': count > 0 && available
+    }" style="margin-bottom: 4px;">
+  </div>
+</div>
+
+<!-- style="border: 1px solid lightgray; border-radius: 8px; background-color:#ddedff;" -->

@@ -1,0 +1,7 @@
+{
+  "name": "bcapp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

@@ -1,0 +1,5 @@
+* prevent multiple API requests for getting employee list
+* display employee list data loading status
+* not allowing of expanding details of offline employee card
+* hide details of offline status employee
+* fix the api url issue
